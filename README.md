@@ -8,7 +8,8 @@ NANI AI is a private, offline-first AI app designed to support pregnant women an
 Track: Ollama Special Prize + Overall Impact Track
 
 Live Demo Video: https://youtu.be/t4KXFZkFy20?si=YLPdvmYD51oNhgYS
-GitHub Repository: https://github.com/Simon420-lye/naniai.git
+
+GitHub Repository: https://github.com/Simon420-lye/naniai
 
 
 ***Key Features***
@@ -46,7 +47,7 @@ pip install torch librosa transformers
 
 2. Clone the Repository
 
-git clone https://github.com/your-username/naniai-gemma3n.git
+git clone https://github.com/Simon420-lye/naniai.git
 cd naniai-gemma3n
 
 3. Install Dependencies
