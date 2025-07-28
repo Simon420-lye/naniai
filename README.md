@@ -9,7 +9,6 @@ Track: Ollama Special Prize + Overall Impact Track
 
 Live Demo Video: https://youtu.be/t4KXFZkFy20?si=YLPdvmYD51oNhgYS
 
-GitHub Repository: [Your Repo Link Here]
 
 ***Key Features***
 
