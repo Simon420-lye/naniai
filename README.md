@@ -8,6 +8,7 @@ NANI AI is a private, offline-first AI app designed to support pregnant women an
 Track: Ollama Special Prize + Overall Impact Track
 
 Live Demo Video: https://youtu.be/t4KXFZkFy20?si=YLPdvmYD51oNhgYS
+GitHub Repository: https://github.com/Simon420-lye/naniai.git
 
 
 ***Key Features***
@@ -28,6 +29,57 @@ Frontend	Streamlit
 Local Inference	Ollama API (localhost:11434)
 Frameworks: Python, Transformers, Streamlit
 Multimodality	Text, Audio (Optional cry analysis)
+
+Installation & Running Locally
+1. Prerequisites
+   
+* Python 3.10+
+
+* Ollama Installed Locally
+
+* Gemma Model pulled into Ollama:
+
+ollama pull gemma:3n
+
+(Optional) For Baby Cry Detection:
+pip install torch librosa transformers
+
+2. Clone the Repository
+
+git clone https://github.com/your-username/naniai-gemma3n.git
+cd naniai-gemma3n
+
+3. Install Dependencies
+
+pip install -r requirements.txt
+
+4. Run Ollama Locally
+   
+Make sure Ollama is running in the background:
+ollama serve
+
+5. Run the NANI AI App
+
+streamlit run app.py
+
+
+***Project Architecture***
+
+naniai-gemma3n/
+├── app.py                   # Main entry file for Streamlit App
+├── tabs/                    # Modular tabs for each feature
+│   ├── home.py
+│   ├── milestone_tracker.py
+│   ├── bedtime_stories.py
+│   ├── cry_analyzer.py
+│   ├── weekly_tips.py
+│   └── settings.py
+├── assets/                  # Images, Audio files, Story Templates
+├── README.md                 # (This file)
+├── requirements.txt          # Python dependencies
+└── LICENSE
+
+
 
 ***How NANI AI Uses Gemma 3n (Technical Deep Dive)***
 
