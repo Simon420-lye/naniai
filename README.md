@@ -7,7 +7,7 @@ NANI AI is a private, offline-first AI app designed to support pregnant women an
 🚀 Built for: Google Gemma 3n Impact Challenge Hackathon
 Track: Ollama Special Prize + Overall Impact Track
 
-Live Demo Video: https://youtu.be/t4KXFZkFy20?si=YLPdvmYD51oNhgYS
+Live Demo Video: https://youtu.be/GZomdAtsj_A?si=kA0cwvF_Je9hADyd
 
 GitHub Repository: https://github.com/Simon420-lye/naniai
 
@@ -122,7 +122,7 @@ naniai-gemma3n/
 
 ***Team & Credits***
 
-1. Developer: Shayamon Bastakoti
+1. Developer: Shayamon Bastakoti 
 
 2. Mentorship & Guidance: Google Gemma Community, OpenAI ChatGPT.
 
