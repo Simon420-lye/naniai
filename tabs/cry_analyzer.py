@@ -1,5 +1,5 @@
 import streamlit as st
-import torch, librosa, tempfile
+import torch, librosa, tempfile, sounddevice as sd, soundfile as sf
 import numpy as np
 from transformers import AutoProcessor, AutoModelForAudioClassification
 import os
